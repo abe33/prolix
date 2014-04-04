@@ -1,5 +1,7 @@
 ## Prolix
 
+[![Build Status](https://travis-ci.org/abe33/prolix.svg?branch=master)](https://travis-ci.org/abe33/prolix)
+
 A debug and benchmark mixin for Atom modules.
 
 ```coffee
