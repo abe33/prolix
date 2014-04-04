@@ -2,7 +2,7 @@
   "name": "prolix",
   "version": "1.0.0",
   "description": "A debug and benchmark mixin for atom modules",
-  "main": "lib/prolix.coffee",
+  "main": "lib/prolix.js",
   "scripts": {
     "test": "grunt test",
     "prepublish": "grunt clean lint coffee"
