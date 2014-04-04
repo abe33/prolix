@@ -50,6 +50,6 @@ Prolix = (channelName, active=false) ->
         @log "#{label}: #{results}"
         time
 
-    canLog: -> @getChannel().active and atom.inDevMode()
+    canLog: -> @getChannel().isActive() and atom.inDevMode()
 
 module.exports = Prolix
